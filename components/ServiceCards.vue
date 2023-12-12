@@ -74,7 +74,16 @@
 </template>
 
 <script setup>
-
+const probs = defineProps({
+    title: String,
+    description: String,
+    desc1: String,
+    desc2: String,
+    desc3: String,
+    desc4: String,
+    heading: String,
+    payment: String,
+});
 </script>
 
 <style lang="scss" scoped></style>
