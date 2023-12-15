@@ -1,12 +1,12 @@
 module.exports = {
   theme: {
     fontFamily: {
-      'major': ['Major Mono Display', 'monospace'],
-      'poppins': ['Poppins', 'sans-serif'],
+      major: ["Major Mono Display", "monospace"],
+      poppins: ["Poppins", "sans-serif"],
     },
     colors: {
       primary: "#ee407b",
-      'primary-2': "#d23465",
+      "primary-2": "#d23465",
       purple: "#271c3c",
       background: "#202020",
       servicebg1: "#130844",
@@ -25,9 +25,9 @@ module.exports = {
       peach: "#ffe5b4",
       alice: "#f0f8ff",
       "4clout": "#1a7eb2",
-      "uniqueteam": "#bccf00",
-      "nailworks": "#c7a693",
-      "javier": "#f8b52b",
+      uniqueteam: "#bccf00",
+      nailworks: "#c7a693",
+      javier: "#f8b52b",
       gray: {
         100: "#f5f5f5",
         200: "#eeeeee",
@@ -48,16 +48,16 @@ module.exports = {
   },
   plugins: [],
   content: [
-    `${srcDir}/components/**/*.{vue,js,ts}`,
-    `${srcDir}/layouts/**/*.vue`,
-    `${srcDir}/pages/**/*.vue`,
-    `${srcDir}/composables/**/*.{js,ts}`,
-    `${srcDir}/plugins/**/*.{js,ts}`,
-    `${srcDir}/utils/**/*.{js,ts}`,
-    `${srcDir}/App.{js,ts,vue}`,
-    `${srcDir}/app.{js,ts,vue}`,
-    `${srcDir}/Error.{js,ts,vue}`,
-    `${srcDir}/error.{js,ts,vue}`,
-    `${srcDir}/app.config.{js,ts}`
-  ]
+    `/components/**/*.{vue,js,ts}`,
+    `/layouts/**/*.vue`,
+    `/pages/**/*.vue`,
+    `/composables/**/*.{js,ts}`,
+    `/plugins/**/*.{js,ts}`,
+    `/utils/**/*.{js,ts}`,
+    `/App.{js,ts,vue}`,
+    `/app.{js,ts,vue}`,
+    `/Error.{js,ts,vue}`,
+    `/error.{js,ts,vue}`,
+    `/app.config.{js,ts}`,
+  ],
 };
