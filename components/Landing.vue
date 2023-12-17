@@ -14,7 +14,9 @@
                             {{ desc2 }}</p>
                     </div>
                     <div class="pt-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
-                        <Button :text="buttonTitle" :link="buttonLink" />
+                        <div v-if="isButton">
+                            <Button :text="buttonTitle" :link="buttonLink" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -29,6 +31,7 @@ const probs = defineProps({
     desc2: String,
     buttonTitle: String,
     buttonLink: String,
+    isButton: Boolean,
 })
 </script>
 
