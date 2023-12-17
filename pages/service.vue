@@ -1,5 +1,10 @@
 <template>
     <div>
+
+        <div>
+            <Landing title="meine services" desc1="Entdecken Sie eine breite Palette an Web-Services unten"
+                desc2="aufgelistet: Design, Hosting, IT - Support und mehr." button-title="" />
+        </div>
         <div class="py-24 sm:py-32">
             <ServiceCards title="Webseiten-Design und Entwicklung" description="Ich unterstütze Sie von der ersten Idee bis zur fertigen Webseite, 
             mit einem ansprechenden Design und reibungsloser technischer Umsetzung. Das Ergebnis 
