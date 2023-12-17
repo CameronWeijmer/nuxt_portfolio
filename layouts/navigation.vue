@@ -25,14 +25,8 @@
                                 <NuxtLink href="/" class="block py-2 pl-3 pr-4 text-white md:p-0">Home</NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink href="/#ueber-mich"
-                                    class="block py-2 pl-3 pr-4 text-white hover:text-primary duration-500 md:border-0 md:p-0">
-                                    Über
-                                    mich</NuxtLink>
-                            </li>
-                            <li>
                                 <NuxtLink href="/service"
-                                    class="block py-2 pl-3 pr-4 text-white font-extrabold hover:text-primary duration-500 md:border-0 md:p-0"
+                                    class="block py-2 pl-3 pr-4 text-white hover:text-primary duration-500 md:border-0 md:p-0"
                                     aria-current="page">Service</NuxtLink>
                             </li>
                             <li>
@@ -85,12 +79,6 @@
 
                     <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12">
                         <li>
-                            <NuxtLink class="text-gray-700 transition hover:text-gray-700/75" href="/#about">
-                                Über mich
-                            </NuxtLink>
-                        </li>
-
-                        <li>
                             <NuxtLink class="text-gray-700 transition hover:text-gray-700/75" href="/service">
                                 Service
                             </NuxtLink>
@@ -127,5 +115,6 @@
 <style scoped>
 .router-link-exact-active {
     color: #ee407b;
+    font-weight: bolder;
 }
 </style>

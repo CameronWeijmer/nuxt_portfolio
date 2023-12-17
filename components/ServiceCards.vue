@@ -58,6 +58,7 @@
                         </p>
                         <p class="mt-6 flex items-baseline justify-center gap-x-2">
                             <span class="text-5xl font-bold tracking-tight text-gray-900">{{ payment }}</span>
+                            <span class="text-sm font-semibold leading-6 tracking-wide text-gray-600">{{ currency }}</span>
                         </p>
                         <Offer />
                         <p class="mt-6 text-xs leading-5 text-gray-600">Gerne unterbreite ich Ihnen eine
@@ -79,6 +80,7 @@ const probs = defineProps({
     desc4: String,
     heading: String,
     payment: String,
+    currency: String,
 });
 </script>
 

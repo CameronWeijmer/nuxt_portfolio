@@ -2,7 +2,8 @@
     <div>
 
         <Landing title="cameron Weijmer" desc1="Vom Konzept zur Website, flink und smart."
-            desc2="Melde dich gleich, für einen digitalen Start!" buttonTitle="Meine Projekte" buttonLink="/projekte" />
+            desc2="Melde dich gleich, für einen digitalen Start!" :isButton="true" buttonTitle="Meine Projekte"
+            buttonLink="/projekte" />
 
         <!-- about me -->
         <div id="about" class="overflow-hidden lg:flex-row max-sm:flex-col lg:flex sm:flex-col lg:justify-between sm:justify-between 
