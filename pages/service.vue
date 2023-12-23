@@ -5,7 +5,11 @@
             <Landing title="meine services" desc1="Entdecken Sie eine breite Palette an Web-Services unten"
                 desc2="aufgelistet: Design, Hosting, IT - Support und mehr." :isButton="false" />
         </div>
-        <div class="py-24 sm:py-32">
+
+        <Heading title="Webdesign für Ihren Erfolg"
+            text="Entdecken Sie meine individuellen Web-Dienstleistungen, um Ihre digitale Reichweite zu stärken und Ihr Publikum zu begeistern." />
+
+        <div>
             <ServiceCards title="Webseiten-Design und Entwicklung" description="Ich unterstütze Sie von der ersten Idee bis zur fertigen Webseite, 
             mit einem ansprechenden Design und reibungsloser technischer Umsetzung. Das Ergebnis 
             ist eine beeindruckende Webseite, die gut aussieht und einwandfrei funktioniert."
